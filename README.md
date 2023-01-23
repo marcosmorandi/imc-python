@@ -9,7 +9,7 @@ O IMC não é aplicável para crianças, idosos ou praticantes de musculação. 
 
 Para calcular o IMC basta dividir o peso do indivíduo em quilogramas, pelo quadrado da sua altura em metros.
 
-Ex: quilos / (altura.altura)
+Ex: quilos / (altura * altura)
 
     Resultado            |Situação
     Abaixo de 17         |Muito abaixo do peso
