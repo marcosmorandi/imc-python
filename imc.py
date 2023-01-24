@@ -8,7 +8,7 @@ peso = float(input("\nQual seu peso atual em kg: "))
 
 # Apagar depois de pronto:
 '''
-Formula: quilos / (altura * altura)
+Fórmula: quilos / (altura * altura)
 
     Resultado            |Situação
     Abaixo de 17         |Muito abaixo do peso
