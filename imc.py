@@ -2,13 +2,13 @@ print("\n========================")
 print("=    Cálculo do IMC    =")
 print("========================")
 
-nome = str(input("\nQual seu primeiro nome: "))
+nome = str(input("\nQual seu nome: "))
 altura = float(input("\nQual a sua altura em cm: "))
 peso = float(input("\nQual seu peso atual em kg: "))
 
 imc = peso / (altura * altura)
 
-print("\n" + nome + ", seu IMC é " + nome +".")
+
 
 # Apagar depois de pronto:
 '''
