@@ -7,7 +7,7 @@ Obesidade é fator de risco para várias doenças, como diabetes, hipertensão a
 
 O IMC não é aplicável para crianças, idosos ou praticantes de musculação. Para esses grupos torna-se mais confiável outros tipos de testes. 
 
-Para calcular o IMC basta dividir o peso do indivíduo em quilogramas, pelo quadrado da sua altura em metros.
+Para calcular o IMC basta dividir o peso do indivíduo em quilogramas, pelo quadrado da sua altura em metros ou centimetros.
 
 Ex: quilos / (altura * altura)
 
