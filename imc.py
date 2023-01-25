@@ -30,11 +30,11 @@ elif imc > 40:
 
 '''
 teste:
-1.80m 50kg - if - ok
-1.80m 58kg - 1º elif - ok
-1.80m 60kg - 2º elif - ok
-1.80m 90kg - 3º elif - ok 
-1.80m 100kg - 4º elif - ok
-1.80m 120kg - 5º elif - ok
-1.80m 150kg - 6º elif - ok
+1.75m 50kg - if - ok
+1.75m 55kg - 1º elif - ok
+1.75m 70kg - 2º elif - ok
+1.75m 80kg - 3º elif - ok
+1.75m 95kg - 4º elif - ok
+1.75m 110kg - 5º elif - ok
+1.75m 130kg - 6º elif - ok
 '''
