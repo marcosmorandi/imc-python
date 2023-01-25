@@ -19,5 +19,5 @@ Ex: quilos / (altura * altura)
     Entre 30 e 34,99     |Obesidade I
     Entre 35 e 39,99     |Obesidade II (severa)
     Acima de 40          |Obesidade III (mórbida)
-
-Fonte da tabela: pt.wikipedia.org/wiki/Índice_de_massa_corporal
+    Fonte da tabela: pt.wikipedia.org/wiki/Índice_de_massa_corporal
+    
