@@ -1,6 +1,7 @@
-print("\n==============================")
-print("=       Cálculo do IMC       =")
-print("==============================")
+print("\n==============================================")
+print("=               Cálculo do IMC               =")
+print("==============================================")
+print("* Use '.' ao invés de ',' para casas decimais.")
 
 nome = str(input("\nQual seu nome? "))
 altura = float(input("\nQual sua altura em metros(m)? "))
