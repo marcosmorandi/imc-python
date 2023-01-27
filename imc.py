@@ -14,19 +14,19 @@ print("\n" + nome + ", seu IMC atual é: {:.2f}".format(imc) + "\n")
 
 # Depois do primeiro "if' usa-se "elif" para economizar processamento, caso a primeira condição seja verdadeira, ele não processa nada mais abaixo.
 if imc < 17:
-    print("Você está muito abaixo do peso normal.\n")
+    print("Você está muito abaixo do peso normal.\n") # Colocar cor vermelha.
 elif imc >= 17 and imc <= 18.49:
-    print("Você está abaixo do peso normal.\n")
+    print("Você está abaixo do peso normal.\n") # Colocar cor amarela.
 elif imc >= 18.50 and imc <= 24.99:
-    print("Você está com o peso normal.\n")
+    print("Você está com o peso normal.\n") # Colocar cor verde.
 elif imc >= 25 and imc <= 29.99:
-    print("Você está acima do peso normal.\n")
+    print("Você está acima do peso normal.\n") # Colocar cor amarela.
 elif imc >= 30 and imc <= 34.99:
-    print("Você está com obesidade I.\n")
+    print("Você está com obesidade I.\n") # Colocar cor vermelha.
 elif imc >= 35 and imc <= 39.99:
-    print("Você está com obesidade II, severa.\n")
+    print("Você está com obesidade II, severa.\n") # Colocar cor vermelha.
 elif imc > 40:
-    print("Você está com obesidade III, mórbida.\n")
+    print("Você está com obesidade III, mórbida.\n") # Colocar cor vermelha.
 # "else" no final é opcional, ele não recebe parametro nenhum, fica "else:".
 
 '''
