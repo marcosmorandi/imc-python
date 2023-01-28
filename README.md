@@ -21,3 +21,6 @@ Ex: peso / (altura * altura)
     Acima de 40          |Obesidade III (mórbida)
 
     Fonte da tabela: pt.wikipedia.org/wiki/Índice_de_massa_corporal
+
+
+[inserir imagem do programa aqui]
