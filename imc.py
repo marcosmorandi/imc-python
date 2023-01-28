@@ -30,12 +30,12 @@ elif imc > 40:
 # "else" no final é opcional, ele não recebe parametro nenhum, fica "else:".
 
 '''
-teste:
-1.75m 50kg - if - ok
-1.75m 55kg - 1º elif - ok
-1.75m 70kg - 2º elif - ok
-1.75m 80kg - 3º elif - ok
-1.75m 95kg - 4º elif - ok
-1.75m 110kg - 5º elif - ok
-1.75m 130kg - 6º elif - ok
+Testes das condicionais:
+1.75m, 50kg = if [ok] - vermelho []
+1.75m, 55kg = 1º elif [ok] - amarelo []
+1.75m, 70kg = 2º elif [ok] - verde []
+1.75m, 80kg = 3º elif [ok] - amarelo []
+1.75m, 95kg = 4º elif [ok] - vermelho []
+1.75m, 110kg = 5º elif [ok] - vermelho []
+1.75m, 130kg = 6º elif [ok] - vermelho []
 '''
