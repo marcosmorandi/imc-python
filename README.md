@@ -31,5 +31,5 @@ Ex: peso / (altura * altura)
 
 # Rodando o projeto
 * git clone + a URL fornecida no botão "Code" acima.
-</br>ou</br>
+<br>ou<br>
 * Fazer o "Download ZIP" no botão "Code" acima.
