@@ -23,6 +23,6 @@ Ex: peso / (altura * altura)
     Fonte da tabela: pt.wikipedia.org/wiki/Índice_de_massa_corporal
 
 
-[inserir imagem do programa aqui]
+<img src="assets/print.png">
 
 [inserir instruções para quem quiser baixar e rodar o programa]
