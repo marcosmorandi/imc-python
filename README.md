@@ -26,3 +26,4 @@ Ex: peso / (altura * altura)
 [inserir imagem do programa aqui]
 
 [inserir instruções para quem quiser baixar e rodar o programa]
+...
