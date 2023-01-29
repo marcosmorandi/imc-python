@@ -1,6 +1,8 @@
 # imc-python
 
 # Descrição do projeto
+Uma calculadora de IMC, desenvolvida em Python.
+
 O Índice de Massa Corporal (IMC) é uma medida internacional usada para calcular se uma pessoa está no peso ideal. Foi desenvolvido por Lambert Quételet no fim do século XIX.
 
 Trata-se de um método fácil e rápido para avaliação do nível de gordura de cada pessoa, sendo por isso um preditor internacional de obesidade adotado pela Organização Mundial da Saúde (OMS).
