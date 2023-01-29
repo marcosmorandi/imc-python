@@ -28,6 +28,6 @@ Ex: peso / (altura * altura)
 <img src="assets/print.png">
 
 # Rodando o projeto
-* git clone + a URL fornecida no botão [Code] acima.
+* git clone + a URL fornecida no botão "Code" acima.
 </br>ou</br>
-* Fazer o "Download ZIP" no botão [Code] acima.
+* Fazer o "Download ZIP" no botão "Code" acima.
