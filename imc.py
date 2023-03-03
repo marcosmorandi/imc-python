@@ -1,45 +1,34 @@
-print("\n==============================================")
-print("=               Cálculo do IMC               =")
-print("==============================================")
-print('* Use "." ao invés de "," para casas decimais.') # Se for usar aspas duplas ou simples no texto exibido, não use o mesmo tipo no comando.
+print('\n==============================================')
+print('=               Cálculo do IMC               =')
+print('==============================================')
+print('* Use "." ao invés de "," para casas decimais.') # O Python aceita aspas simples ou duplas no "print". Prefiro usas as simples no comando e as duplas caso precise no texto.
 
-nome = str(input("\nQual seu nome? "))
-altura = float(input("\nQual sua altura em metros(m)? "))
-peso = float(input("\nQual seu peso atual em quilogramas(kg)? "))
+nome = str(input('\nQual seu nome? '))
+altura = float(input('\nQual sua altura em metros(m)? '))
+peso = float(input('\nQual seu peso atual em quilogramas(kg)? '))
 
 imc = peso / (altura * altura)
 
-# "{:.2f}" junto com o ".format()" formata para que apareça 2 casas decimais.
-print("\n" + nome + ", seu IMC atual é: {:.2f}".format(imc) + "\n")
+print('\n' + nome + ', seu IMC atual é: {:.2f}'.format(imc) + '\n')
 
 # Depois do primeiro "if' usa-se "elif" para economizar processamento, caso a primeira condição seja verdadeira, ele não processa nada mais abaixo.
 if imc < 17:
-    print("\033[1;41mVocê está muito abaixo do peso normal.\033[m\n") # Fundo vermelho, texto em negrito. Fechar o escape sequence para não colorir o que vem depois.
+    print('\033[1;41mVocê está muito abaixo do peso normal.\033[m\n') # Fundo vermelho, texto em negrito. Fechar o escape sequence para não colorir o que vem depois.
 elif imc >= 17 and imc <= 18.49:
-    print("\033[1;43mVocê está abaixo do peso normal.\033[m\n") # Fundo amarelo, texto em negrito.
+    print('\033[1;43mVocê está abaixo do peso normal.\033[m\n') # Fundo amarelo, texto em negrito.
 elif imc >= 18.50 and imc <= 24.99:
-    print("\033[1;42mVocê está com o peso normal.\033[m\n") # Fundo verde, texto em negrito.
+    print('\033[1;42mVocê está com o peso normal.\033[m\n') # Fundo verde, texto em negrito.
 elif imc >= 25 and imc <= 29.99:
-    print("\033[1;43mVocê está acima do peso normal.\033[m\n") # Fundo amarelo, texto em negrito.
+    print('\033[1;43mVocê está acima do peso normal.\033[m\n') # Fundo amarelo, texto em negrito.
 elif imc >= 30 and imc <= 34.99:
-    print("\033[1;41mVocê está com obesidade I.\033[m\n") # Fundo vermelho, texto em negrito.
+    print('\033[1;41mVocê está com obesidade I.\033[m\n') # Fundo vermelho, texto em negrito.
 elif imc >= 35 and imc <= 39.99:
-    print("\033[1;41mVocê está com obesidade II, severa.\033[m\n") # Fundo vermelho, texto em negrito.
+    print('\033[1;41mVocê está com obesidade II, severa.\033[m\n') # Fundo vermelho, texto em negrito.
 elif imc > 40:
-    print("\033[1;41mVocê está com obesidade III, mórbida.\033[m\n") # Fundo vermelho, texto em negrito.
+    print('\033[1;41mVocê está com obesidade III, mórbida.\033[m\n') # Fundo vermelho, texto em negrito.
 # "else" no final é opcional, ele não recebe parametro nenhum, fica "else:".
 
 '''
-Testes das condicionais:
-1.75m, 50kg = if [ok] = fundo vermelho, texto em negrito [ok]
-1.75m, 55kg = 1º elif [ok] = fundo amarelo, texto em negrito [ok]
-1.75m, 70kg = 2º elif [ok] = fundo verde, texto em negrito [ok]
-1.75m, 80kg = 3º elif [ok] = fundo amarelo, texto em negrito [ok]
-1.75m, 95kg = 4º elif [ok] = fundo vermelho, texto em negrito [ok]
-1.75m, 110kg = 5º elif [ok] = fundo vermelho, texto em negrito [ok]
-1.75m, 130kg = 6º elif [ok] = fundo vermelho, texto em negrito [ok]
-
-
 Cores ANSI escape sequence
 \033[(estilo);(cor do texto);(cor do fundo)m
 \033[0;33;44m
